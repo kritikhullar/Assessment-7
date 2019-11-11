@@ -8,8 +8,8 @@ namespace Assessment_EF.Common
 {
     public class Table
     {
-        public IEnumerable<Employee> emp { get; set; }
-        public IEnumerable<Department> dept { get; set; }
+        public List<Employee> emp { get; set; }
+        public List<Department> dept { get; set; }
 
     }
 }
